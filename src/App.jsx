@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import './sass/app.scss';
-import TopSection from './components/top/index'
+import TopSection from './components/top';
+import BottomSection from './components/bottom';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <TopSection />
         </div>
         <div className="bottom-section">
-          BOTTOM
+          <BottomSection />
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@ export default class TopSection extends React.Component {
                     Your Weather
                 </div>
                 <Weather />
+                <button className="btn btn-select-location">Select</button>
             </div>;
     }
 }

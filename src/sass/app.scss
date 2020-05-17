@@ -31,3 +31,12 @@ html, body, #root {
         }
     }
 }
+
+.btn {
+    border: 1px solid #ddd;
+    margin: 15px 0px;
+
+    &:focus {
+        outline: none;
+    }
+}
